@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="quiz.css" />
+    <script defer src="quiz.js"></script>
+    <meta name="robots" content="noodp, noydir" />
+    <meta name="description"
+        content="Test your knowledge and skills">
+    <meta name="keywords"
+        content="Quiz App, quiz time, ">
+    <meta property="og:site_name" content="Quiz App" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Quiz App">
+    <meta name="description"
+        content="Test your knowledge and skills">
+    <meta property="og:image" content="logo.png"
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quiz App">
+    <meta name="twitter:description" content="Test your knowledge and skills">
+    <meta name="twitter:image" content="logo.png">
+  </head>
+  <body>
+    <div class="selection">
+      <div class="dropdown">
+        <button class="dropdownbtn category">Category</button>
+        <div class="dropdown-content category_dropdown">
+          <div href="#" class="cat">General Knowledge</div>
+          <div href="#" class="cat">Arts</div>
+          <div href="#" class="cat">Film</div>
+          <div href="#" class="cat">Science</div>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropdownbtn difficulty">Difficulty</button>
+        <div class="dropdown-content difficulty_dropdown">
+          <div href="#" class="difficulties">easy</div>
+          <div href="#" class="difficulties">medium</div>
+          <div href="#" class="difficulties">hard</div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="question-container" class="hide">
+        <h1 id="question">Question</h1>
+        <div id="answer-button" class="btn-grid">
+          <button class="btn btn1 answer">Answer 1</button>
+          <button class="btn btn2 answer">Answer 2</button>
+          <button class="btn btn3 answer">Answer 3</button>
+          <button class="btn btn4 answer">Answer 4</button>
+        </div>
+        <div class="correctans"> sd</div>
+      </div>
+      <div class="controls">
+        <button class="start-btn" id="start-btn" value="Start">Start</button>
+        <button class="restart-btn hide" id="restart-btn btn" value="Restart">
+          Restart
+        </button>
+        <button class="next-btn hide" id="next-btn">Next</button>
+      </div>
+    </div>
+  </body>
+</html>
